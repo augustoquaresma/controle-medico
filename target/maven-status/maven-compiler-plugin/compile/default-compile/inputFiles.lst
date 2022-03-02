@@ -1,0 +1,17 @@
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/controller/EspecialidadeController.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/model/Especialidade.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/service/EspecialidadeService.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/controller/MedicoController.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/model/dto/MedicoDTO.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/model/dto/PostEspecialidade.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/config/RestResponseEntityExceptionHandler.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/exception/NotFoundException.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/repository/IEspecialidade.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/model/dto/MedicoResponse.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/ControleMedicoApplication.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/model/dto/PostMedico.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/model/dto/EspecialidadeDTO.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/service/MedicoService.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/model/dto/EspecialidadeResponse.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/repository/IMedico.java
+/Users/augustoquaresma/Documents/desenvolvimento/workspace/sts/controle-medico/src/main/java/br/com/liriodesenvolvimento/model/Medico.java
