@@ -10,7 +10,7 @@ spring:
     username: sa
     password: password
     driverClassName: org.h2.Driver
-    url: jdbc:h2:file:./data/exemplo
+    url: jdbc:h2:mem:db
   jpa:
     hibernate.ddl-auto: create-drop
     database-platform: org.hibernate.dialect.H2Dialect
