@@ -114,6 +114,12 @@ public class MedicoService {
 		
 	}
 	
+	@Transactional
+	public void deleteMedico(Long id) {
+		Medico medico = imedico.findById(id).orElseThrow(() -> new NotFoundException("Médico não encontrado!"));
+		imedico.delete(medico);
+	}
+	
 	
 
 }

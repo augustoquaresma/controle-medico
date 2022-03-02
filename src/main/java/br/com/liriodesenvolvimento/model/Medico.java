@@ -1,5 +1,6 @@
 package br.com.liriodesenvolvimento.model;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -48,7 +49,7 @@ public class Medico {
 	@ManyToMany(cascade = CascadeType.ALL)
 	@JoinTable(name = "medico_especialista", joinColumns = @JoinColumn(name = "medico_id"),
 						inverseJoinColumns = @JoinColumn(name = "especialidade_id"))
-	private List<Especialidade> especialidades;
+	private List<Especialidade> especialidades = new ArrayList<>();
 	
 
 }

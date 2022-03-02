@@ -93,8 +93,12 @@ public class EspecialidadeService {
 															.id(esp.getId())
 															.nome(esp.getNome())
 															.descricao(esp.getDescricao())
+															.medicos(new ArrayList<>())
 															.build();
 		List<Medico> medicos = medicoService.returnMedicosPorEspecialidade(esp);
+		if (medicos.isEmpty()) {
+			throw new NotFoundException("Não existem médicos nessa especialidade!");
+		}
 		medicos.forEach( med -> {
 			MedicoDTO volta = MedicoDTO.builder()
 								.id(med.getId())
@@ -103,6 +107,12 @@ public class EspecialidadeService {
 			retorno.getMedicos().add(volta);
 		});
 		return retorno;
+	}
+	
+	@Transactional
+	public void deleteEspecialidade(Long id) {
+		Especialidade esp = iespecialidade.findById(id).orElseThrow(() -> new NotFoundException("Especialidade não encontrada!"));
+		iespecialidade.delete(esp);
 	}
 	
 	
