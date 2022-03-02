@@ -74,7 +74,7 @@ public class EspecialidadeService {
 	public EspecialidadeDTO updateEspecialidade(PostEspecialidade post, Long id) {
 		Especialidade esp = iespecialidade.findById(id).orElseThrow(() -> new NotFoundException("Especialidade não encontrada!"));
 		esp.setDescricao(post.getDescricao());
-		esp.setNome(post.getDescricao());
+		esp.setNome(post.getNome());
 		esp.setAtivo(post.isAtivo());
 		esp = iespecialidade.save(esp);
 		return EspecialidadeDTO.builder()
