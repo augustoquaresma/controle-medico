@@ -2,15 +2,14 @@ server:
   port: 80
 
 spring:
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
   datasource:
-    username: ${JDBC_DATABASE_USERNAME:sa}
-    password: ${JDBC_DATABASE_PASSWORD:password}
-    driverClassName: org.h2.Driver
-    url: ${JDBC_DATABASE_URL:jdbc:h2:mem:db}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
+    driverClassName: org.postgresql.Driver
+    url: ${JDBC_DATABASE_URL}
   jpa:
+    database: postgresql
+    show-sql: true
     hibernate.ddl-auto: update
-    database-platform: org.hibernate.dialect.H2Dialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
